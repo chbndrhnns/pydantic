@@ -12,6 +12,7 @@ from .networks import *
 from .parse import Protocol
 from .tools import *
 from .types import *
+from .typing import NoneType
 from .version import VERSION
 
 __version__ = VERSION
@@ -122,6 +123,8 @@ __all__ = [
     'ByteSize',
     'PastDate',
     'FutureDate',
+    # typing
+    'NoneType',
     # version
     'VERSION',
 ]
